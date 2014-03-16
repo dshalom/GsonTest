@@ -32,8 +32,7 @@ public class MainActivity extends Activity {
 			createAndSaveRegions();
 			readAndRecreateRegions();
 		} catch (JSONException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+						e.printStackTrace();
 		}
 	}
 
